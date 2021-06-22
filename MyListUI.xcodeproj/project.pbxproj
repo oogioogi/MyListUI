@@ -13,6 +13,7 @@
 		862F2A8D2681942E00C301E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F2A8C2681942E00C301E9 /* Assets.xcassets */; };
 		862F2A902681942E00C301E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F2A8F2681942E00C301E9 /* Preview Assets.xcassets */; };
 		862F2A932681942E00C301E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862F2A912681942E00C301E9 /* LaunchScreen.storyboard */; };
+		862F2A9C2681950500C301E9 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F2A9B2681950500C301E9 /* MyProjectCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		862F2A8F2681942E00C301E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		862F2A922681942E00C301E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862F2A942681942E00C301E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862F2A9B2681950500C301E9 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				862F2A862681942C00C301E9 /* AppDelegate.swift */,
 				862F2A882681942C00C301E9 /* SceneDelegate.swift */,
 				862F2A8A2681942C00C301E9 /* ContentView.swift */,
+				862F2A9B2681950500C301E9 /* MyProjectCard.swift */,
 				862F2A8C2681942E00C301E9 /* Assets.xcassets */,
 				862F2A912681942E00C301E9 /* LaunchScreen.storyboard */,
 				862F2A942681942E00C301E9 /* Info.plist */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				862F2A872681942C00C301E9 /* AppDelegate.swift in Sources */,
+				862F2A9C2681950500C301E9 /* MyProjectCard.swift in Sources */,
 				862F2A892681942C00C301E9 /* SceneDelegate.swift in Sources */,
 				862F2A8B2681942C00C301E9 /* ContentView.swift in Sources */,
 			);
