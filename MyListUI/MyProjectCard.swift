@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MyProjectCard: View {
+    
+    @State var showAlert: Bool = false
+    
     var body: some View {
         VStack(alignment:.leading, spacing: 0){
 //            Rectangle()
@@ -42,8 +45,12 @@ struct MyProjectCard: View {
                     .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .background(Color.gray)
                     .clipShape(Circle())
+                
                 Spacer()
-                Button(action: {}, label: {
+                
+                Button(action: {
+                    self.showAlert.toggle()
+                }, label: {
                     Text("확인")
                         .fontWeight(.bold)
                         .frame(width: 70, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -51,7 +58,9 @@ struct MyProjectCard: View {
                         .background(Color.blue)
                         .cornerRadius(10.0)
                         //.offset(x: 40, y: 0)
-                })
+                }).alert(isPresented: $showAlert) {
+                    Alert(title: Text("알림창"), message: Text("알림창 입니다!"), dismissButton: .cancel())
+                }
             }
         }
         .padding(30)
