@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8625D2AD2683011900FCF3C7 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625D2AC2683011900FCF3C7 /* MyBasicCard.swift */; };
+		8625D2B02683129200FCF3C7 /* MyTopTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625D2AF2683129200FCF3C7 /* MyTopTitle.swift */; };
 		862F2A872681942C00C301E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F2A862681942C00C301E9 /* AppDelegate.swift */; };
 		862F2A892681942C00C301E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F2A882681942C00C301E9 /* SceneDelegate.swift */; };
 		862F2A8B2681942C00C301E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F2A8A2681942C00C301E9 /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8625D2AC2683011900FCF3C7 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		8625D2AF2683129200FCF3C7 /* MyTopTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTopTitle.swift; sourceTree = "<group>"; };
 		862F2A832681942C00C301E9 /* MyListUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyListUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862F2A862681942C00C301E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		862F2A882681942C00C301E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +65,9 @@
 				862F2A862681942C00C301E9 /* AppDelegate.swift */,
 				862F2A882681942C00C301E9 /* SceneDelegate.swift */,
 				862F2A8A2681942C00C301E9 /* ContentView.swift */,
+				8625D2AF2683129200FCF3C7 /* MyTopTitle.swift */,
 				862F2A9B2681950500C301E9 /* MyProjectCard.swift */,
+				8625D2AC2683011900FCF3C7 /* MyBasicCard.swift */,
 				862F2A8C2681942E00C301E9 /* Assets.xcassets */,
 				862F2A912681942E00C301E9 /* LaunchScreen.storyboard */,
 				862F2A942681942E00C301E9 /* Info.plist */,
@@ -148,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8625D2B02683129200FCF3C7 /* MyTopTitle.swift in Sources */,
 				862F2A872681942C00C301E9 /* AppDelegate.swift in Sources */,
+				8625D2AD2683011900FCF3C7 /* MyBasicCard.swift in Sources */,
 				862F2A9C2681950500C301E9 /* MyProjectCard.swift in Sources */,
 				862F2A892681942C00C301E9 /* SceneDelegate.swift in Sources */,
 				862F2A8B2681942C00C301E9 /* ContentView.swift in Sources */,
